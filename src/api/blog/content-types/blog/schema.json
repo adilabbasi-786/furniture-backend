@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "blogs",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "product",
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog",
     "description": ""
   },
   "options": {
@@ -15,8 +15,8 @@
     "title": {
       "type": "string"
     },
-    "price": {
-      "type": "decimal"
+    "desc": {
+      "type": "text"
     },
     "img": {
       "type": "media",
@@ -29,8 +29,8 @@
         "audios"
       ]
     },
-    "show_on_Homepage": {
-      "type": "boolean"
+    "addtional_desc": {
+      "type": "text"
     }
   }
 }
